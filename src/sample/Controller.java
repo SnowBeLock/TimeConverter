@@ -22,6 +22,7 @@ public class Controller {
     public void calculate() {
         
         var strDepartureDate=departureDate.getText();
+        var strDepartureTime=departureTime.getText();
         result.setText(strDepartureDate);
         System.out.println("POGA!"+ departureDate);
     }
